@@ -2,7 +2,7 @@
 * **Toy Example**
   ![Result](images/fig_ToyExample.png)
 
-* **Example large instance**:
+* **Large instances for locating renewable energy units**:
     * IEEE 118 Bus Network
   <img src="images/fig_IEEE118BusNetwork.png" width="700" height="550">
   
