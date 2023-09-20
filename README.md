@@ -11,4 +11,4 @@
   <img src="images/fig_IEEE300BusNetwork.png" width="700" height="550">
 
   * <ins>**Results on above networks**</ins>
-  <img src="images/fig_Results.png" width="3300" height="250">
+  ![Result](images/fig_Results.png)
