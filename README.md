@@ -1,5 +1,6 @@
 # Data-for-Bilevel-Progs-with-Spatial-Price-Eqbm-Constrs
 * **Toy Example**
+  
   ![Result](images/fig_ToyExample.png)
 
 * **Large instances for locating renewable energy units**:
@@ -10,4 +11,4 @@
   <img src="images/fig_IEEE300BusNetwork.png" width="700" height="550">
 
   * <ins>**Results on above networks**</ins>
-  ![Result](images/fig_Results.png)
+  <img src="images/fig_Results.png" width="3300" height="250">
