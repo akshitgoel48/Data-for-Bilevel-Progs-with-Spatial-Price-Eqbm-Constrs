@@ -4,7 +4,7 @@
 
 * **Large instances for locating renewable energy units**:
     * IEEE 118 Bus Network
-  <img src="images/fig_IEEE118BusNetwork.png" width="700" height="550">
+  <img src="images/fig_IEEE118BusNetwork.png" width="600" height="450">
   
     * IEEE 300 Bus Network
   <img src="images/fig_IEEE300BusNetwork.png" width="700" height="550">
