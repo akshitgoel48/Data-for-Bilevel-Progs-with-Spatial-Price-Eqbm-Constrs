@@ -1,0 +1,62 @@
+
+Gurobi 9.5.2 (win64) logging started Mon Mar 27 20:27:53 2023
+
+Set parameter LogFile to value "2023-03-27_20hr-25min-09sec/Nodes40_Arcs45_LocNodes30/Formulation-2Instance-2.log"
+Set parameter TimeLimit to value 600
+Set parameter IntFeasTol to value 1e-09
+Set parameter DualReductions to value 0
+Set parameter NonConvex to value 2
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 156 rows, 270 columns and 550 nonzeros
+Model fingerprint: 0x91f92613
+Model has 85 quadratic objective terms
+Model has 85 SOS constraints
+Variable types: 240 continuous, 30 integer (30 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 2e+02]
+  Objective range  [4e-06, 1e+03]
+  QObjective range [4e-02, 8e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [4e-06, 3e+03]
+Presolve removed 17 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 139 rows, 253 columns, 520 nonzeros
+Presolved model has 84 SOS constraint(s)
+Presolved model has 84 quadratic objective terms
+Variable types: 223 continuous, 30 integer (30 binary)
+
+Root relaxation: objective 9.890874e+05, 304 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 989087.447    0   14          - 989087.447      -     -    0s
+H    0     0                    973171.37628 989087.447  1.64%     -    0s
+H    0     0                    974049.77362 989087.447  1.54%     -    0s
+     0     0 989071.303    0   13 974049.774 989071.303  1.54%     -    0s
+     0     0 989071.303    0   13 974049.774 989071.303  1.54%     -    0s
+H    0     0                    987167.29699 989071.303  0.19%     -    0s
+H    0     0                    987169.24771 989071.303  0.19%     -    0s
+     0     0 987949.731    0   22 987169.248 987949.731  0.08%     -    0s
+     0     0 987462.004    0   19 987169.248 987462.004  0.03%     -    0s
+H    0     0                    987206.96784 987462.004  0.03%     -    0s
+H    0     0                    987269.64645 987462.004  0.02%     -    0s
+     0     0 987340.093    0   19 987269.646 987340.093  0.01%     -    0s
+
+Cutting planes:
+  Cover: 4
+  Implied bound: 4
+  MIR: 8
+  Flow cover: 12
+  Relax-and-lift: 8
+
+Explored 1 nodes (547 simplex iterations) in 0.07 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 6: 987270 987207 987169 ... 973171
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.872696464518e+05, best bound 9.873400933950e+05, gap 0.0071%
+
+User-callback calls 265, time in user-callback 0.00 sec

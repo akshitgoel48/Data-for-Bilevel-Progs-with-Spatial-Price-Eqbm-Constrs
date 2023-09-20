@@ -1,0 +1,52 @@
+
+Gurobi 9.5.2 (win64) logging started Mon Mar 27 20:26:30 2023
+
+Set parameter LogFile to value "2023-03-27_20hr-25min-09sec/Nodes20_Arcs35_LocNodes15/Formulation-2Instance-4.log"
+Set parameter TimeLimit to value 600
+Set parameter IntFeasTol to value 1e-09
+Set parameter DualReductions to value 0
+Set parameter NonConvex to value 2
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 91 rows, 160 columns and 350 nonzeros
+Model fingerprint: 0xdd488c3e
+Model has 55 quadratic objective terms
+Model has 55 SOS constraints
+Variable types: 145 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 2e+02]
+  Objective range  [6e-02, 1e+03]
+  QObjective range [3e-02, 8e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [6e-02, 1e+03]
+Presolve removed 6 rows and 6 columns
+Presolve time: 0.00s
+Presolved: 85 rows, 154 columns, 342 nonzeros
+Presolved model has 55 SOS constraint(s)
+Presolved model has 55 quadratic objective terms
+Variable types: 139 continuous, 15 integer (15 binary)
+
+Root relaxation: objective 4.082895e+05, 196 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 408289.467    0    6          - 408289.467      -     -    0s
+H    0     0                    405766.74353 408289.467  0.62%     -    0s
+     0     0 408037.616    0    6 405766.744 408037.616  0.56%     -    0s
+H    0     0                    406508.69553 408037.616  0.38%     -    0s
+     0     0 407978.519    0    5 406508.696 407978.519  0.36%     -    0s
+H    0     0                    407975.87426 407978.519  0.00%     -    0s
+
+Cutting planes:
+  Flow cover: 4
+
+Explored 1 nodes (206 simplex iterations) in 0.05 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 407976 406509 405767 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.079758742615e+05, best bound 4.079785188329e+05, gap 0.0006%
+
+User-callback calls 208, time in user-callback 0.00 sec

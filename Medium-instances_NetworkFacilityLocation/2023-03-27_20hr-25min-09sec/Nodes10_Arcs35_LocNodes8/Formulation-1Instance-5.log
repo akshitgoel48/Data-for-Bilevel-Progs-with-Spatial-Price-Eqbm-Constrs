@@ -1,0 +1,88 @@
+
+Gurobi 9.5.2 (win64) logging started Mon Mar 27 20:41:31 2023
+
+Set parameter LogFile to value "2023-03-27_20hr-25min-09sec/Nodes10_Arcs35_LocNodes8/Formulation-1Instance-5.log"
+Set parameter TimeLimit to value 600
+Set parameter IntFeasTol to value 1e-09
+Set parameter DualReductions to value 0
+Set parameter NonConvex to value 2
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 64 rows, 116 columns and 282 nonzeros
+Model fingerprint: 0xf1a9f5cb
+Model has 8 quadratic objective terms
+Model has 45 SOS constraints
+Variable types: 108 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [5e-02, 2e+02]
+  Objective range  [3e+00, 2e+02]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e-01, 1e+03]
+Presolve time: 0.00s
+Presolved: 81 rows, 126 columns, 323 nonzeros
+Presolved model has 45 SOS constraint(s)
+Presolved model has 8 bilinear constraint(s)
+Variable types: 118 continuous, 8 integer (8 binary)
+
+Root relaxation: unbounded, 26 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  postponed    0               -          -      -     -    0s
+     0     0  postponed    0               -          -      -     -    0s
+Exploring 100 nodes in MinRel heuristic
+No solution found by MinRel heuristic
+     0     2  postponed    0               -          -      -     -    0s
+Exploring 10000 nodes in MinRel heuristic
+H 2207   765                    -4163.540809          -      -  18.1    0s
+Feasible solution found by MinRel heuristic at node 4016
+H 2289   835                    -3798.540809          -      -  19.1    1s
+H 2523   865                    95591.218006          -      -  21.3    1s
+ 12470  2482  postponed   30      95591.2180          -      -  33.9    5s
+H15458  2759                    101530.17097          -      -  33.2    6s
+H21595  3426                    102946.12275          -      -  34.3    8s
+H21792  3425                    103613.14271          -      -  34.3    8s
+H21845  3425                    103614.07639          -      -  34.3    8s
+H21920  3425                    104660.75086          -      -  34.3    8s
+ 24452  3708  postponed   27      104660.751          -      -  34.7   10s
+H27046  3774                    105382.77192          -      -  34.7   11s
+H27203  3773                    107433.03376          -      -  34.7   11s
+ 38460  4597  postponed   29      107433.034          -      -  35.2   15s
+ 49680  5288 432677.407   29   20 107433.034          -      -  35.3   20s
+H61576  6135                    107433.97994          -      -  35.5   24s
+H61640  6135                    107443.10589          -      -  35.5   24s
+ 61779  6218  postponed   34      107443.106          -      -  35.5   25s
+ 74478  6998 infeasible   33      107443.106          -      -  35.5   30s
+H78387  7259                    107444.83324          -      -  35.6   31s
+H84109  7722                    107445.35537          -      -  35.6   33s
+ 88351  8184  postponed   37      107445.355          -      -  35.8   35s
+H95489  8553                    107445.37989          -      -  35.9   38s
+ 100748  8762  postponed   36      107445.380          -      -  35.9   40s
+ 113968  9680 infeasible   35      107445.380          -      -  35.9   45s
+ 126549 10489 1438640.63   30   22 107445.380          -      -  35.9   50s
+ 139516 11108 infeasible   34      107445.380          -      -  35.7   55s
+ 153021 11580  postponed   32      107445.380          -      -  35.3   60s
+ 165539 12239 281145.471   30   23 107445.380          -      -  35.2   65s
+ 178047 12812  postponed   36      107445.380          -      -  35.2   70s
+ 191127 13264 infeasible   29      107445.380          -      -  35.1   75s
+ 204135 13728 infeasible   33      107445.380          -      -  35.1   80s
+ 217241 14490 infeasible   30      107445.380          -      -  35.1   85s
+ 232589 15247 infeasible   34      107445.380          -      -  34.9   90s
+ 245651 15929  postponed   28      107445.380          -      -  34.9   95s
+ 260528 16477 306174.275   30   27 107445.380          -      -  34.8  100s
+ 272389 16833  postponed   29      107445.380          -      -  34.7  105s
+ 293686 14724 infeasible   31      107445.380 408430.034   280%  33.8  110s
+ 321209  7952 infeasible   39      107445.380 300385.202   180%  32.4  115s
+ 351975  1652     cutoff   44      107445.380 141076.220  31.3%  30.5  120s
+
+Explored 361712 nodes (10802707 simplex iterations) in 121.67 seconds (28.74 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 10: 107445 107445 107445 ... 103613
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.074453798883e+05, best bound 1.074454691561e+05, gap 0.0001%
+
+User-callback calls 735158, time in user-callback 7.40 sec

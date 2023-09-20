@@ -1,0 +1,53 @@
+
+Gurobi 9.5.2 (win64) logging started Mon Mar 27 20:28:19 2023
+
+Set parameter LogFile to value "2023-03-27_20hr-25min-09sec/Nodes40_Arcs55_LocNodes30/Formulation-2Instance-4.log"
+Set parameter TimeLimit to value 600
+Set parameter IntFeasTol to value 1e-09
+Set parameter DualReductions to value 0
+Set parameter NonConvex to value 2
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 166 rows, 290 columns and 610 nonzeros
+Model fingerprint: 0xe1ee2016
+Model has 95 quadratic objective terms
+Model has 95 SOS constraints
+Variable types: 260 continuous, 30 integer (30 binary)
+Coefficient statistics:
+  Matrix range     [1e-02, 2e+02]
+  Objective range  [3e-02, 1e+03]
+  QObjective range [3e-02, 8e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 3e+03]
+Presolve removed 22 rows and 26 columns
+Presolve time: 0.00s
+Presolved: 144 rows, 264 columns, 556 nonzeros
+Presolved model has 87 SOS constraint(s)
+Presolved model has 87 quadratic objective terms
+Variable types: 234 continuous, 30 integer (30 binary)
+
+Root relaxation: objective 1.168685e+06, 334 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1168685.12    0    5          - 1168685.12      -     -    0s
+H    0     0                    1166595.1101 1168685.12  0.18%     -    0s
+H    0     0                    1168054.4779 1168685.12  0.05%     -    0s
+     0     0 1168335.29    0    6 1168054.48 1168335.29  0.02%     -    0s
+H    0     0                    1168314.2508 1168335.29  0.00%     -    0s
+     0     0 1168325.19    0    6 1168314.25 1168325.19  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  Flow cover: 1
+
+Explored 1 nodes (342 simplex iterations) in 0.03 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 1.16831e+06 1.16805e+06 1.1666e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.168314250767e+06, best bound 1.168325190422e+06, gap 0.0009%
+
+User-callback calls 257, time in user-callback 0.00 sec

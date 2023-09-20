@@ -1,0 +1,57 @@
+
+Gurobi 9.5.2 (win64) logging started Mon Mar 27 20:26:27 2023
+
+Set parameter LogFile to value "2023-03-27_20hr-25min-09sec/Nodes20_Arcs35_LocNodes15/Formulation-2Instance-3.log"
+Set parameter TimeLimit to value 600
+Set parameter IntFeasTol to value 1e-09
+Set parameter DualReductions to value 0
+Set parameter NonConvex to value 2
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 91 rows, 160 columns and 350 nonzeros
+Model fingerprint: 0x6508c7f8
+Model has 55 quadratic objective terms
+Model has 55 SOS constraints
+Variable types: 145 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+02]
+  Objective range  [4e-02, 1e+03]
+  QObjective range [2e-01, 8e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [4e-02, 1e+03]
+Presolve removed 16 rows and 23 columns
+Presolve time: 0.00s
+Presolved: 75 rows, 137 columns, 284 nonzeros
+Presolved model has 43 SOS constraint(s)
+Presolved model has 43 quadratic objective terms
+Variable types: 122 continuous, 15 integer (15 binary)
+
+Root relaxation: objective 3.070852e+05, 174 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 307085.218    0    4          - 307085.218      -     -    0s
+H    0     0                    305795.17586 307085.218  0.42%     -    0s
+H    0     0                    306256.69606 307085.218  0.27%     -    0s
+     0     0 306709.939    0    4 306256.696 306709.939  0.15%     -    0s
+     0     0 306671.637    0   14 306256.696 306671.637  0.14%     -    0s
+     0     0 306530.782    0   15 306256.696 306530.782  0.09%     -    0s
+     0     0 306284.356    0   15 306256.696 306284.356  0.01%     -    0s
+
+Cutting planes:
+  Cover: 2
+  Implied bound: 1
+  MIR: 1
+  Flow cover: 3
+  Relax-and-lift: 1
+
+Explored 1 nodes (347 simplex iterations) in 0.05 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 306257 305795 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.062566960632e+05, best bound 3.062843556627e+05, gap 0.0090%
+
+User-callback calls 298, time in user-callback 0.00 sec

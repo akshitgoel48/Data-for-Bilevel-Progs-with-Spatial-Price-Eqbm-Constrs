@@ -1,0 +1,130 @@
+
+Gurobi 9.5.2 (win64) logging started Mon Mar 27 20:34:22 2023
+
+Set parameter LogFile to value "2023-03-27_20hr-25min-09sec/Nodes10_Arcs35_LocNodes8/Formulation-1Instance-3.log"
+Set parameter TimeLimit to value 600
+Set parameter IntFeasTol to value 1e-09
+Set parameter DualReductions to value 0
+Set parameter NonConvex to value 2
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 64 rows, 116 columns and 282 nonzeros
+Model fingerprint: 0xa372c240
+Model has 8 quadratic objective terms
+Model has 45 SOS constraints
+Variable types: 108 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [3e-02, 2e+02]
+  Objective range  [3e+00, 2e+02]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [6e-02, 1e+03]
+Presolve time: 0.00s
+Presolved: 81 rows, 126 columns, 323 nonzeros
+Presolved model has 45 SOS constraint(s)
+Presolved model has 8 bilinear constraint(s)
+Variable types: 118 continuous, 8 integer (8 binary)
+
+Root relaxation: unbounded, 68 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  postponed    0               -          -      -     -    0s
+     0     0  postponed    0               -          -      -     -    0s
+Exploring 100 nodes in MinRel heuristic
+No solution found by MinRel heuristic
+     0     2  postponed    0               -          -      -     -    0s
+Exploring 10000 nodes in MinRel heuristic
+No solution found by MinRel heuristic
+ 13463  1422 291245.438   33   24          -          -      -  14.9    5s
+H13920  1422                    46876.535595          -      -  15.2    5s
+H13935  1422                    46878.007502          -      -  15.1    5s
+*13937  1422              85    47044.074189          -      -  15.1    5s
+H19934  1809                    65866.074384          -      -  19.0    7s
+H20454  1806                    66032.074384          -      -  19.2    7s
+H25224  2006                    67845.772246          -      -  20.9    9s
+H25326  2001                    87173.065930          -      -  20.9    9s
+ 25967  2063 273276.107   37   20 87173.0659          -      -  21.0   10s
+ 37160  2595 infeasible   33      87173.0659          -      -  23.7   15s
+H43728  2856                    87302.600635          -      -  24.5   17s
+H44146  2856                    87506.406730          -      -  24.6   17s
+ 49834  3189  postponed   36      87506.4067          -      -  25.2   20s
+H49848  3189                    87908.451928          -      -  25.2   20s
+ 61969  3659  postponed   29      87908.4519          -      -  25.7   25s
+H67383  4153                    87908.763736          -      -  26.3   26s
+ 76993  5240  postponed   30      87908.7637          -      -  27.2   30s
+H83766  5745                    87908.763750          -      -  27.9   32s
+ 89849  6085  postponed   28      87908.7637          -      -  28.2   35s
+H89850  6085                    87993.376050          -      -  28.2   35s
+H95517  6350                    88117.353158          -      -  28.4   37s
+H95667  6350                    88158.145170          -      -  28.4   37s
+ 101181  6662 infeasible   38      88158.1452          -      -  28.7   40s
+ 114531  7803  postponed   29      88158.1452          -      -  29.3   45s
+ 126144  8677  postponed   35      88158.1452          -      -  29.7   50s
+ 140560  9471  postponed   32      88158.1452          -      -  29.5   55s
+H140565  9470                    88370.929611          -      -  29.5   55s
+H151810  9837                    88374.138834          -      -  29.3   59s
+ 152012  9898  postponed   36      88374.1388          -      -  29.3   60s
+ 165751 10456  postponed   35      88374.1388          -      -  29.3   65s
+ 179581 10961  postponed   32      88374.1388          -      -  29.3   70s
+H186864 11154                    88374.601680          -      -  29.3   72s
+ 192461 11364 150537.085   37   18 88374.6017          -      -  29.2   75s
+ 205150 11713  postponed   36      88374.6017          -      -  29.1   80s
+ 217332 11995 194058.767   33   18 88374.6017          -      -  29.2   85s
+H226016 12073                    88374.942203          -      -  29.2   88s
+ 230173 12205 infeasible   35      88374.9422          -      -  29.3   90s
+ 243455 12850 infeasible   38      88374.9422          -      -  29.4   95s
+ 257341 13743 infeasible   34      88374.9422          -      -  29.6  100s
+ 270188 14522  postponed   34      88374.9422          -      -  30.0  105s
+H282877 15612                    88374.948288          -      -  30.2  109s
+ 283069 15671 infeasible   33      88374.9483          -      -  30.2  110s
+ 296411 16745 256320.131   33   18 88374.9483          -      -  30.5  115s
+ 309363 17740 infeasible   37      88374.9483          -      -  30.7  120s
+ 322025 18954  postponed   33      88374.9483          -      -  30.9  125s
+ 334335 19768 infeasible   36      88374.9483          -      -  31.1  130s
+ 346758 20322 infeasible   37      88374.9483          -      -  31.2  135s
+H355030 20722                    88375.368825          -      -  31.3  138s
+ 359263 20859 infeasible   39      88375.3688          -      -  31.3  140s
+ 371966 21634  postponed   32      88375.3688          -      -  31.4  145s
+ 384925 22586  postponed   36      88375.3688          -      -  31.5  150s
+ 399107 23349 infeasible   37      88375.3688          -      -  31.6  155s
+ 411942 24064 infeasible   38      88375.3688          -      -  31.7  160s
+ 425597 25001 infeasible   29      88375.3688          -      -  31.8  165s
+ 438836 25590 infeasible   38      88375.3688          -      -  31.8  170s
+H439299 25590                    88375.370479          -      -  31.8  170s
+ 451190 26396 179516.795   33   13 88375.3705          -      -  31.9  175s
+ 464333 26889  postponed   36      88375.3705          -      -  31.9  180s
+ 478342 27155 240036.759   37   24 88375.3705          -      -  31.9  185s
+ 487786 27252  postponed   33      88375.3705          -      -  31.9  190s
+ 498144 27323 190123.628   34   24 88375.3705          -      -  31.9  195s
+ 518402 21716 infeasible   31      88375.3705 304408.392   244%  31.2  200s
+ 550248 10123 102361.934   34   19 88375.3705 148398.445  67.9%  30.0  205s
+ 580784  5066 infeasible   52      88375.3705 114602.269  29.7%  28.7  210s
+ 611134   136     cutoff   71      88375.3705 88677.4839  0.34%  27.6  215s
+*611164   136              72    88376.701550 88677.4839  0.34%  27.6  215s
+*611170   136              76    88376.787576 88677.4839  0.34%  27.6  215s
+*611176   136              80    88376.796981 88677.4839  0.34%  27.6  215s
+*611178   136              81    88376.800198 88677.4839  0.34%  27.6  215s
+H611992   178                    88376.827278 88483.0954  0.12%  27.5  215s
+*612270   178              97    88376.842652 88452.0134  0.09%  27.5  215s
+*612458   178              84    88376.842816 88434.3440  0.07%  27.5  215s
+*612643   357              87    88376.905280 88388.1292  0.01%  27.5  215s
+*612908   357              88    88376.906654 88385.5806  0.01%  27.5  215s
+*612965   357              79    88376.908447 88385.5806  0.01%  27.5  215s
+*612968   357              81    88376.908523 88385.5806  0.01%  27.5  215s
+*612992   357              84    88376.910507 88385.5806  0.01%  27.5  215s
+*612997   357              87    88376.910697 88385.5806  0.01%  27.5  215s
+*613245   357              82    88376.915373 88384.7205  0.01%  27.5  215s
+*613251   357              85    88376.921348 88384.7205  0.01%  27.5  215s
+*613300   357              81    88376.926872 88384.7042  0.01%  27.5  215s
+
+Explored 613649 nodes (16850269 simplex iterations) in 215.47 seconds (46.47 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 10: 88376.9 88376.9 88376.9 ... 88376.8
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.837692687154e+04, best bound 8.837821622330e+04, gap 0.0015%
+
+User-callback calls 1249105, time in user-callback 13.40 sec

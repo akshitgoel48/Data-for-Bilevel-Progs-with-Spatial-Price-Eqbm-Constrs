@@ -1,0 +1,47 @@
+
+Gurobi 9.5.2 (win64) logging started Mon Mar 27 20:25:37 2023
+
+Set parameter LogFile to value "2023-03-27_20hr-25min-09sec/Nodes10_Arcs25_LocNodes8/Formulation-2Instance-1.log"
+Set parameter TimeLimit to value 600
+Set parameter IntFeasTol to value 1e-09
+Set parameter DualReductions to value 0
+Set parameter NonConvex to value 2
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 54 rows, 96 columns and 222 nonzeros
+Model fingerprint: 0xadaba01f
+Model has 35 quadratic objective terms
+Model has 35 SOS constraints
+Variable types: 88 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [3e-02, 2e+02]
+  Objective range  [4e-02, 1e+03]
+  QObjective range [6e-02, 8e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [4e-02, 1e+03]
+Presolve time: 0.00s
+Presolved: 54 rows, 96 columns, 222 nonzeros
+Presolved model has 35 SOS constraint(s)
+Presolved model has 35 quadratic objective terms
+Variable types: 88 continuous, 8 integer (8 binary)
+
+Root relaxation: objective 3.895668e+04, 140 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 38956.6758    0    7          - 38956.6758      -     -    0s
+H    0     0                    38675.808419 38956.6758  0.73%     -    0s
+
+Cutting planes:
+  Flow cover: 1
+
+Explored 1 nodes (140 simplex iterations) in 0.04 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 38675.8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.867580841925e+04, best bound 3.867611164682e+04, gap 0.0008%
+
+User-callback calls 149, time in user-callback 0.00 sec

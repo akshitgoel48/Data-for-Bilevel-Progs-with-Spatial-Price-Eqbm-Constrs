@@ -1,0 +1,57 @@
+
+Gurobi 9.5.2 (win64) logging started Mon Mar 27 20:25:54 2023
+
+Set parameter LogFile to value "2023-03-27_20hr-25min-09sec/Nodes10_Arcs35_LocNodes8/Formulation-2Instance-2.log"
+Set parameter TimeLimit to value 600
+Set parameter IntFeasTol to value 1e-09
+Set parameter DualReductions to value 0
+Set parameter NonConvex to value 2
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 64 rows, 116 columns and 282 nonzeros
+Model fingerprint: 0xf1fbfb8d
+Model has 45 quadratic objective terms
+Model has 45 SOS constraints
+Variable types: 108 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [3e-02, 2e+02]
+  Objective range  [3e-03, 1e+03]
+  QObjective range [7e-02, 8e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-03, 1e+03]
+Presolve time: 0.00s
+Presolved: 64 rows, 116 columns, 282 nonzeros
+Presolved model has 45 SOS constraint(s)
+Presolved model has 45 quadratic objective terms
+Variable types: 108 continuous, 8 integer (8 binary)
+
+Root relaxation: objective 9.611482e+04, 157 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 96114.8170    0    8          - 96114.8170      -     -    0s
+H    0     0                    92006.937329 96114.8170  4.46%     -    0s
+H    0     0                    95474.014036 96114.8170  0.67%     -    0s
+     0     0 95803.3219    0    8 95474.0140 95803.3219  0.34%     -    0s
+     0     0 95798.1746    0    8 95474.0140 95798.1746  0.34%     -    0s
+H    0     0                    95474.018760 95798.1746  0.34%     -    0s
+     0     0 95798.1746    0    9 95474.0188 95798.1746  0.34%     -    0s
+H    0     0                    95499.791395 95798.1746  0.31%     -    0s
+     0     2 95798.1746    0    9 95499.7914 95798.1746  0.31%     -    0s
+H   31     6                    95515.245330 95675.8733  0.17%   3.0    0s
+H   31     6                    95544.563184 95675.8733  0.14%   3.0    0s
+
+Cutting planes:
+  MIR: 1
+  Flow cover: 2
+
+Explored 47 nodes (292 simplex iterations) in 0.12 seconds (0.02 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 4: 95544.6 95515.2 95474 92006.9 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.554456318435e+04, best bound 9.554456318435e+04, gap 0.0000%
+
+User-callback calls 300, time in user-callback 0.00 sec

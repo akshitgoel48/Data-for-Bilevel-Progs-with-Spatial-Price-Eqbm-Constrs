@@ -1,0 +1,88 @@
+
+Gurobi 9.5.2 (win64) logging started Mon Mar 27 20:29:52 2023
+
+Set parameter LogFile to value "2023-03-27_20hr-25min-09sec/Nodes10_Arcs25_LocNodes8/Formulation-1Instance-4.log"
+Set parameter TimeLimit to value 600
+Set parameter IntFeasTol to value 1e-09
+Set parameter DualReductions to value 0
+Set parameter NonConvex to value 2
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 54 rows, 96 columns and 222 nonzeros
+Model fingerprint: 0x33f5ad95
+Model has 8 quadratic objective terms
+Model has 35 SOS constraints
+Variable types: 88 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [8e-02, 2e+02]
+  Objective range  [3e+00, 2e+02]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [8e-02, 1e+03]
+Presolve time: 0.00s
+Presolved: 71 rows, 106 columns, 263 nonzeros
+Presolved model has 35 SOS constraint(s)
+Presolved model has 8 bilinear constraint(s)
+Variable types: 98 continuous, 8 integer (8 binary)
+
+Root relaxation: unbounded, 49 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  postponed    0               -          -      -     -    0s
+     0     0  postponed    0               -          -      -     -    0s
+Exploring 100 nodes in MinRel heuristic
+H    0     0                    -4081.767142          -      -     -    0s
+Feasible solution found by MinRel heuristic at node 195
+     0     2  postponed    0      -4081.7671          -      -     -    0s
+H   89   124                    -3695.767142          -      -  13.4    0s
+H  137   124                    38134.428221          -      -  13.8    0s
+H 7616   478                    38146.543018          -      -  14.8    2s
+H 8698   466                    61656.560645          -      -  17.1    2s
+H 8815   526                    61878.032707          -      -  17.4    3s
+H 9152   546                    62252.854835          -      -  17.9    3s
+H 9567   574                    113729.09433          -      -  18.6    3s
+H10510   710                    119529.97540          -      -  19.6    3s
+H10541   710                    119592.70176          -      -  19.6    3s
+*10570   710              83    119592.84207          -      -  19.5    3s
+*10572   710              84    119592.91817          -      -  19.5    3s
+*10575   710              85    119592.91897          -      -  19.5    3s
+*10576   710              86    119592.91981          -      -  19.5    3s
+*10579   710              87    119592.91983          -      -  19.5    3s
+H10659   671                    119781.91983          -      -  19.6    3s
+H12202   877                    119827.45944          -      -  20.8    4s
+H12655   978                    119828.76791          -      -  20.9    4s
+*12693   976              81    119828.77335          -      -  20.9    4s
+H13077  1028                    119890.18232          -      -  20.8    4s
+ 14432   997 infeasible   23      119890.182          -      -  21.6    5s
+H15508  1015                    120209.84798          -      -  22.5    5s
+H25221   805                    120412.33878 274601.610   128%  23.5    8s
+*26851   827              69    120412.78350 166402.273  38.2%  22.4    9s
+*26853   827              69    120412.86048 166402.273  38.2%  22.4    9s
+H26865   827                    120414.78601 166402.273  38.2%  22.4    9s
+*26891   827              83    120414.83529 166402.273  38.2%  22.4    9s
+*26897   827              86    120414.86978 166402.273  38.2%  22.3    9s
+ 31213   265 120532.133   52    2 120414.870 124196.637  3.14%  19.8   10s
+*31499   265              73    120414.94703 124140.174  3.09%  19.6   10s
+*31537   265              76    120414.99450 124140.174  3.09%  19.6   10s
+*32640   222              80    120414.99984 120894.990  0.40%  19.0   10s
+*32641   222              80    120415.00024 120894.990  0.40%  19.0   10s
+*32704   222              85    120415.00055 120884.954  0.39%  19.0   10s
+*33186   222              78    120415.00196 120857.553  0.37%  18.8   10s
+*33191   222              78    120415.01563 120857.553  0.37%  18.8   10s
+*33219   222              82    120415.03120 120857.553  0.37%  18.7   10s
+*33221   222              83    120415.03207 120857.553  0.37%  18.7   10s
+*33225   222              81    120415.05796 120857.553  0.37%  18.7   10s
+*33760   468              83    120415.06091 120443.352  0.02%  18.5   10s
+*35204   468              89    120415.06093 120415.717  0.00%  17.8   10s
+
+Explored 35224 nodes (626377 simplex iterations) in 10.52 seconds (1.79 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 10: 120415 120415 120415 ... 120415
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.204150609279e+05, best bound 1.204157170454e+05, gap 0.0005%
+
+User-callback calls 71041, time in user-callback 0.79 sec

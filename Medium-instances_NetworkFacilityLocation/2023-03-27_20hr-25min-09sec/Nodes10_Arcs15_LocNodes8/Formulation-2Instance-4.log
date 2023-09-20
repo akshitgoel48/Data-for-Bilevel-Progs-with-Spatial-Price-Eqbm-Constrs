@@ -1,0 +1,50 @@
+
+Gurobi 9.5.2 (win64) logging started Mon Mar 27 20:25:31 2023
+
+Set parameter LogFile to value "2023-03-27_20hr-25min-09sec/Nodes10_Arcs15_LocNodes8/Formulation-2Instance-4.log"
+Set parameter TimeLimit to value 600
+Set parameter IntFeasTol to value 1e-09
+Set parameter DualReductions to value 0
+Set parameter NonConvex to value 2
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 44 rows, 76 columns and 162 nonzeros
+Model fingerprint: 0x5001ce05
+Model has 25 quadratic objective terms
+Model has 25 SOS constraints
+Variable types: 68 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [8e-02, 2e+02]
+  Objective range  [8e-02, 1e+03]
+  QObjective range [2e-01, 8e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [8e-02, 1e+03]
+Presolve removed 2 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 42 rows, 74 columns, 161 nonzeros
+Presolved model has 25 SOS constraint(s)
+Presolved model has 25 quadratic objective terms
+Variable types: 66 continuous, 8 integer (8 binary)
+
+Root relaxation: objective 1.969841e+05, 96 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 196984.117    0    4          - 196984.117      -     -    0s
+H    0     0                    196568.64230 196984.117  0.21%     -    0s
+H    0     0                    196569.06371 196984.117  0.21%     -    0s
+H    0     0                    196712.65357 196984.117  0.14%     -    0s
+
+Cutting planes:
+  Flow cover: 1
+
+Explored 1 nodes (96 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 196713 196569 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.967126535659e+05, best bound 1.967129039675e+05, gap 0.0001%
+
+User-callback calls 182, time in user-callback 0.00 sec
