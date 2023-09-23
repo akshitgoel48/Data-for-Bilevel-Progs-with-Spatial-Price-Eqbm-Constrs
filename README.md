@@ -1,4 +1,3 @@
-# Data-for-Bilevel-Progs-with-Spatial-Price-Eqbm-Constrs
 # Medium-instances_NetworkFacilityLocation
 
 * [Nodes10_Arcs15_LocNodes8/](./Medium-instances_NetworkFacilityLocation/Upper-And-LowerLevel_Params_data/Nodes10_Arcs15_LocNodes8)
